@@ -29,34 +29,73 @@ Images:
 */
 
 * {
-    font-family: fantasy;
-    color: white;
-    font-size: large;
+  font-family: "Copperplate";
+  color: white;
+  font-size: large;
 }
 
 body {
-    background-image: url('pics/jordanshoes.jpg');
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat;  
-    height: 100vh;                 
-    margin: 0;                     
-  }
-
-#jordans-1, #jordans-2 {
-height: 400px;
-width: 600px;
+  background-image: url("pics/jordanshoes.jpg");
+  background-size: cover;
+  background-position: stretch;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
 }
 
-#jordans-1-desc, #jordans-2-desc {
-    background-color: #fb4040;
-    font-size: 1.5em;
+h1 {
+  background: linear-gradient(to bottom, #fb4040, #74c9f1);
+  width: 98%;
+  margin: 20px auto;
+  border-radius: 20px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  font-size: 3rem;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+
+
+#jordans-1,
+#jordans-2 {
+  height: 600px;
+  width: 800px;
+}
+
+#jordans-1 {
+  box-shadow: 5px 5px 10px #74c9f1;
+  margin: 0 0 0 10vw;
+}
+
+#jordans-2 {
+  box-shadow: -5px 5px 10px #fb4040;
+  margin: 0 0 0 60vw;
+}
+
+#jordans-1-desc {
+  background-color: #74c9f1;
+  font-size: 2rem;
+  width: 795px;
+  height: auto;
+  border: solid 4px #fb4040;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px 0 10px 10%;
 }
 
 #jordans-2-desc {
-    background-color: #74c9f1;
+  background-color: #fb4040;
+  font-size: 2rem;
+  width: 795px;
+  height: auto;
+  border: solid 4px #74c9f1;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px 0 10px 60%;
 }
 
 a {
-    font-size: large;
+  font-size: inherit;
 }
