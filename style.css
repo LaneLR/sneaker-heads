@@ -28,7 +28,7 @@ Images:
     - (You may use any image you would like for the background!)
 */
 
-* {
+html {
   font-family: "Copperplate";
   color: white;
   font-size: large;
